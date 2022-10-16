@@ -12,10 +12,12 @@ git clone https://github.com/jrandleman/EScheme
 
 # Unzip one of the larger files we zipped to ease GitHub use.
 home_dir_path=$(pwd)
-eval "unzip $home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/lib/modules.zip"
+cd "SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/lib"
+eval "unzip modules.zip"
+cd "../../../.."
 
 # Compile & Run the EScheme Installer
-cd "$home_dir_path/EScheme/installer"
+cd "EScheme/installer"
 eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/javac Installer.java"
 eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/java Installer --java-bin-path $home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin"
 
