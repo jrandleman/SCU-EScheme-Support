@@ -1,4 +1,4 @@
-## escm-installer.sh -- Author: Jordan Randleman
+## centos-escm-installer.sh -- Author: Jordan Randleman
 ## Purpose:
 ##   Designed to auto-install Java 17 & EScheme onto the host SCU CentOS linux machine.
 ## @PRECONDITION:
