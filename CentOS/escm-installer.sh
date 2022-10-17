@@ -20,7 +20,3 @@ cd "../../../.."
 cd "EScheme/installer"
 eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/javac Installer.java"
 eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/java Installer --java-bin-path $home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin"
-
-# Output how to register the "escm" alias in "~/.bashrc"
-echo "Add this to your \"~/.bashrc\" file to use the \"escm\" command:"
-echo "  alias escm='$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/java $home_dir_path/EScheme/bin/Main'"
