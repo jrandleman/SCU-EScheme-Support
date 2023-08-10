@@ -19,4 +19,4 @@ cd "../../../.."
 # Compile & Run the EScheme Installer
 cd "EScheme/installer"
 eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/javac Installer.java"
-eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/java Installer --java-bin-path $home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin"
+eval "$home_dir_path/SCU-EScheme-Support/CentOS/jdk-17.0.4.1+1/bin/java Installer"
